@@ -1,0 +1,14 @@
+{
+  "name": "codex-connector-demo",
+  "version": "1.0.0",
+  "description": "A minimal GitHub App integrating with OpenAI's Codex via ChatGPT API to generate code snippets from issue comments.",
+  "main": "index.js",
+  "scripts": {
+    "start": "probot run ./index.js"
+  },
+  "dependencies": {
+    "probot": "^12.1.1",
+    "openai": "^3.2.1",
+    "dotenv": "^16.0.3"
+  }
+}
